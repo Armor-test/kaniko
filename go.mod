@@ -1,6 +1,6 @@
 module github.com/GoogleContainerTools/kaniko
 
-go 1.24.0
+go 1.26.0
 
 require (
 	cloud.google.com/go/storage v1.54.0
@@ -124,7 +124,7 @@ require (
 	go.etcd.io/etcd/raft/v3 v3.5.21 // indirect
 	go.opencensus.io v0.24.0 // indirect
 	golang.org/x/crypto v0.38.0 // indirect
-	golang.org/x/sys v0.33.0
+	golang.org/x/sys v0.48.0
 	golang.org/x/text v0.25.0 // indirect
 	golang.org/x/time v0.11.0 // indirect
 	google.golang.org/api v0.233.0

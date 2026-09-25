@@ -1,6 +1,6 @@
 module github.com/GoogleContainerTools/kaniko
 
-go 1.24.0
+go 1.25.0
 
 require (
 	cloud.google.com/go/storage v1.54.0
@@ -28,14 +28,14 @@ require (
 	github.com/spf13/afero v1.14.0
 	github.com/spf13/cobra v1.9.1
 	github.com/spf13/pflag v1.0.6
-	golang.org/x/net v0.40.0
+	golang.org/x/net v0.55.0
 	golang.org/x/oauth2 v0.30.0
-	golang.org/x/sync v0.14.0
+	golang.org/x/sync v0.20.0
 )
 
 require (
 	github.com/GoogleCloudPlatform/docker-credential-gcr/v2 v2.1.22
-	github.com/containerd/containerd v1.7.27
+	github.com/containerd/containerd v1.7.36
 )
 
 require github.com/googleapis/enterprise-certificate-proxy v0.3.6 // indirect
@@ -113,7 +113,7 @@ require (
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/opencontainers/image-spec v1.1.1 // indirect
 	github.com/opencontainers/runtime-spec v1.2.1 // indirect
-	github.com/opencontainers/selinux v1.12.0 // indirect
+	github.com/opencontainers/selinux v1.13.1 // indirect
 	github.com/prometheus/client_golang v1.22.0 // indirect
 	github.com/prometheus/client_model v0.6.2 // indirect
 	github.com/prometheus/common v0.64.0 // indirect
@@ -123,10 +123,10 @@ require (
 	github.com/xanzy/ssh-agent v0.3.3 // indirect
 	go.etcd.io/etcd/raft/v3 v3.5.21 // indirect
 	go.opencensus.io v0.24.0 // indirect
-	golang.org/x/crypto v0.38.0 // indirect
-	golang.org/x/sys v0.33.0
-	golang.org/x/text v0.25.0 // indirect
-	golang.org/x/time v0.11.0 // indirect
+	golang.org/x/crypto v0.52.0 // indirect
+	golang.org/x/sys v0.45.0
+	golang.org/x/text v0.37.0 // indirect
+	golang.org/x/time v0.12.0 // indirect
 	google.golang.org/api v0.233.0
 	google.golang.org/genproto v0.0.0-20250519155744-55703ea1f237 // indirect
 	google.golang.org/grpc v1.72.1 // indirect
@@ -161,7 +161,7 @@ require (
 	github.com/containerd/plugin v1.0.0 // indirect
 	github.com/containerd/ttrpc v1.2.7 // indirect
 	github.com/containerd/typeurl/v2 v2.2.3 // indirect
-	github.com/cyphar/filepath-securejoin v0.4.1 // indirect
+	github.com/cyphar/filepath-securejoin v0.5.1 // indirect
 	github.com/distribution/reference v0.6.0 // indirect
 	github.com/envoyproxy/go-control-plane/envoy v1.32.4 // indirect
 	github.com/envoyproxy/protoc-gen-validate v1.2.1 // indirect
